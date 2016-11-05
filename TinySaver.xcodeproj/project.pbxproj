@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AAFF0DA1DCDA11300ECBC90 /* TinySaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AAFF0D91DCDA11300ECBC90 /* TinySaverView.h */; };
+		2AAFF0DC1DCDA11300ECBC90 /* TinySaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAFF0DB1DCDA11300ECBC90 /* TinySaverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AAFF0D61DCDA11300ECBC90 /* TinySaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinySaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAFF0D91DCDA11300ECBC90 /* TinySaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TinySaverView.h; sourceTree = "<group>"; };
+		2AAFF0DB1DCDA11300ECBC90 /* TinySaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinySaverView.m; sourceTree = "<group>"; };
+		2AAFF0DD1DCDA11300ECBC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AAFF0D21DCDA11300ECBC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AAFF0CC1DCDA11300ECBC90 = {
+			isa = PBXGroup;
+			children = (
+				2AAFF0D81DCDA11300ECBC90 /* TinySaver */,
+				2AAFF0D71DCDA11300ECBC90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AAFF0D71DCDA11300ECBC90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AAFF0D61DCDA11300ECBC90 /* TinySaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AAFF0D81DCDA11300ECBC90 /* TinySaver */ = {
+			isa = PBXGroup;
+			children = (
+				2AAFF0D91DCDA11300ECBC90 /* TinySaverView.h */,
+				2AAFF0DB1DCDA11300ECBC90 /* TinySaverView.m */,
+				2AAFF0DD1DCDA11300ECBC90 /* Info.plist */,
+			);
+			path = TinySaver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2AAFF0D31DCDA11300ECBC90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAFF0DA1DCDA11300ECBC90 /* TinySaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AAFF0D51DCDA11300ECBC90 /* TinySaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAFF0E01DCDA11300ECBC90 /* Build configuration list for PBXNativeTarget "TinySaver" */;
+			buildPhases = (
+				2AAFF0D11DCDA11300ECBC90 /* Sources */,
+				2AAFF0D21DCDA11300ECBC90 /* Frameworks */,
+				2AAFF0D31DCDA11300ECBC90 /* Headers */,
+				2AAFF0D41DCDA11300ECBC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinySaver;
+			productName = TinySaver;
+			productReference = 2AAFF0D61DCDA11300ECBC90 /* TinySaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AAFF0CD1DCDA11300ECBC90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Tiny;
+				TargetAttributes = {
+					2AAFF0D51DCDA11300ECBC90 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 479S789LE8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2AAFF0D01DCDA11300ECBC90 /* Build configuration list for PBXProject "TinySaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AAFF0CC1DCDA11300ECBC90;
+			productRefGroup = 2AAFF0D71DCDA11300ECBC90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AAFF0D51DCDA11300ECBC90 /* TinySaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AAFF0D41DCDA11300ECBC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AAFF0D11DCDA11300ECBC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAFF0DC1DCDA11300ECBC90 /* TinySaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AAFF0DE1DCDA11300ECBC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2AAFF0DF1DCDA11300ECBC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2AAFF0E11DCDA11300ECBC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 479S789LE8;
+				INFOPLIST_FILE = TinySaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.saver.TinySaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		2AAFF0E21DCDA11300ECBC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 479S789LE8;
+				INFOPLIST_FILE = TinySaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.saver.TinySaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AAFF0D01DCDA11300ECBC90 /* Build configuration list for PBXProject "TinySaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAFF0DE1DCDA11300ECBC90 /* Debug */,
+				2AAFF0DF1DCDA11300ECBC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AAFF0E01DCDA11300ECBC90 /* Build configuration list for PBXNativeTarget "TinySaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAFF0E11DCDA11300ECBC90 /* Debug */,
+				2AAFF0E21DCDA11300ECBC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AAFF0CD1DCDA11300ECBC90 /* Project object */;
+}
